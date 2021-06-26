@@ -16,3 +16,7 @@
 small {
     font-family: emoji;
 }
+
+.link {
+    text-decoration: underline;
+}

@@ -14,6 +14,7 @@ export class ModalComponent implements OnInit {
   @Input() age!: string;
   @Input() description!: string;
   @Input() image!: string;
+  @Input() showLink: boolean = false;
 
   constructor() { }
 

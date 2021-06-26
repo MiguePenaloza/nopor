@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { ModalComponent } from './share/components/modal/modal.component';
+import { AficheComponent } from './pages/afiche/afiche.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ModalComponent } from './share/components/modal/modal.component';
     NetflixLoginComponent,
     NetflixHomeComponent,
     ModalComponent,
+    AficheComponent,
   ],
   imports: [
     BrowserModule,

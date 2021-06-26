@@ -15,6 +15,9 @@
             <div class="modal-body">
                 <img [src]=image alt="Girl in a jacket" width="220" height="200">
                 <small>{{description}}</small>
+                <div *ngIf="showLink">
+                    <small><a href="afiche" class="link">Enviame la direccion, conocere tu iglesia ;)</a></small>
+                </div>
             </div>
             <div class="modal-footer">
                 <button (mouseenter)="mouseEnter() " (mouseleave)="mouseLeave()" id="btn1" type="button" class="btn btn-secondary footer"

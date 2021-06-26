@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { NetflixLoginComponent } from './pages/netflix-login/netflix-login.component';
 import { NetflixHomeComponent } from './pages/netflix-home/netflix-home.component';
+import { AficheComponent } from './pages/afiche/afiche.component';
 
 const routes: Routes = [
     {
@@ -18,10 +19,14 @@ const routes: Routes = [
         path: 'netflix-home',
         component: NetflixHomeComponent
     },
-    // {
-    //     path: '**',
-    //     redirectTo: ''
-    // }
+    {
+        path: 'afiche',
+        component: AficheComponent
+    },
+    {
+        path: '**',
+        redirectTo: ''
+    }
 ];
 
 @NgModule({
