@@ -14,14 +14,10 @@ export class ModalComponent implements OnInit {
   @Input() age!: string;
   @Input() description!: string;
   @Input() image!: string;
-  @ViewChild('openModal1') openModal!:ElementRef;
 
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.openModal);
-    
-    this.openModal.nativeElement.click();
   }
 
   mouseEnter() {
