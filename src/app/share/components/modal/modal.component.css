@@ -1,0 +1,17 @@
+.modal {
+    top: 0px;
+    width: 250px;
+    left: 1250px;
+}
+
+#btn1 {
+    margin-right: 10px;
+}
+
+.footer {
+    width: 50px;
+}
+
+small {
+    font-family: emoji;
+}

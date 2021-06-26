@@ -1,0 +1,26 @@
+<!-- Button trigger modal -->
+<button id="openModal" #openModal type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Launch static backdrop modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade jumbotron" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Angela, 22 años</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="../../../../assets/images/girl1.jpeg" alt="Girl in a jacket" width="220" height="200">
+                <small>Quiere conocerte, llamar a Angela?</small>
+            </div>
+            <div class="modal-footer">
+                <button (mouseenter)="mouseEnter() " (mouseleave)="mouseLeave()" id="btn1" type="button" class="btn btn-secondary footer"
+                    data-bs-dismiss="modal">{{message}}</button>
+                <button type="button" class="btn btn-primary footer">{{message1}}</button>
+            </div>
+        </div>
+    </div>
+</div>

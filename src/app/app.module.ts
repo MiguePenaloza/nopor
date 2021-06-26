@@ -9,6 +9,7 @@ import { NetflixHomeComponent } from './pages/netflix-home/netflix-home.componen
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
+import { ModalComponent } from './share/components/modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -16,13 +17,15 @@ import { AppRoutingModule } from './app-routing.module';
     HomeComponent,
     NetflixComponent,
     NetflixLoginComponent,
-    NetflixHomeComponent
+    NetflixHomeComponent,
+    ModalComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    RouterModule
+    RouterModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
