@@ -11,6 +11,10 @@
 	box-sizing: border-box;
 	line-height: 1.4;
   }
+
+  a {
+	  cursor: pointer;
+  }
   
   img {
 	max-width: 100%;
@@ -137,12 +141,17 @@
   }
   
   .sub-links a:hover {
+	opacity: 0.5;
 	color: var(--dark);
 	text-decoration: underline;
   }
   
   .logos a{
 	padding: 10px;
+  }
+
+  .logos a:hover{
+	opacity: 0.5;
   }
   
   .logo {

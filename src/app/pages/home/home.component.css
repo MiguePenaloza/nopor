@@ -110,7 +110,7 @@ body {
   footer  {
     background: #f2f2f2;
     border-top: solid 2px #e4e4e4;
-  /*   position: fixed; */
+    position: fixed;
     bottom: 0;
     padding-bottom: 0;
     width: 100%;
